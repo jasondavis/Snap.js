@@ -21,4 +21,4 @@ addEvent(document.getElementById('open-left'), 'click', function(){
             "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
         }, !1)
     }
-})(document, window.navigator, "standalone")
+})(document, window.navigator, "standalone");
